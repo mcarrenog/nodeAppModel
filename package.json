@@ -1,0 +1,40 @@
+{
+  "name": "nodeappmodel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcarrenog/nodeAppModel.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "mcarrenog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcarrenog/nodeAppModel/issues"
+  },
+  "homepage": "https://github.com/mcarrenog/nodeAppModel#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^9.1.1",
+    "tslib": "^2.0.1",
+    "typeorm": "^0.2.38"
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.16",
+    "ts-jest": "^26.5.1",
+    "tslint": "^5.20.1",
+    "tslint-consistent-codestyle": "^1.16.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.9.7",
+    "json-refs": "^3.0.15"
+  }
+}
